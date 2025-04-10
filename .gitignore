@@ -1,0 +1,9 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore Excel output files
+books.xlsx
+~$books.xlsx
+
+# Ignore environment files (if any)
+.env
