@@ -4,7 +4,6 @@ const XLSX = require("xlsx");
 (async () => {
   const browser = await puppeteer.launch({
     headless: true,
-    executablePath: "/usr/bin/google-chrome", // Required for Render
     args: ["--no-sandbox", "--disable-setuid-sandbox"]
   });
 
